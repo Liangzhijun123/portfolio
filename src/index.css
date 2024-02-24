@@ -4,37 +4,35 @@
 @font-face {
   font-family: "TT Commons Pro";
   src: url("path/to/font/TTCommonsPro-Regular.ttf") format("truetype");
- 
+}
+html {
+  background-color: rgb(231 223 216);
 }
 
 @font-face {
   font-family: "TT Commons Pro";
   src: url("path/to/font/TTCommonsPro-Bold.ttf") format("truetype");
   font-weight: bold;
- 
 }
 
 @font-face {
-  font-family: 'TT Commons Pro Backwards';
-  src: url('path/to/font/TTCommonsProBackwards-Regular.ttf') format('truetype');
-  
+  font-family: "TT Commons Pro Backwards";
+  src: url("path/to/font/TTCommonsProBackwards-Regular.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: 'TT Commons Pro Backwards';
-  src: url('path/to/font/TTCommonsProBackwards-Bold.ttf') format('truetype');
+  font-family: "TT Commons Pro Backwards";
+  src: url("path/to/font/TTCommonsProBackwards-Bold.ttf") format("truetype");
   font-weight: bold;
 }
 
-
 @font-face {
-  font-family: 'Canva Sans';
-  src: url('path/to/font/CanvaSans-Regular.ttf') format('truetype');
- 
+  font-family: "Canva Sans";
+  src: url("path/to/font/CanvaSans-Regular.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: 'Canva Sans';
-  src: url('path/to/font/CanvaSans-Bold.ttf') format('truetype');
+  font-family: "Canva Sans";
+  src: url("path/to/font/CanvaSans-Bold.ttf") format("truetype");
   font-weight: bold;
 }
