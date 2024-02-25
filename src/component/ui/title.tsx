@@ -1,7 +1,7 @@
 function title() {
   return (
     <>
-      <div className="grid grid-cols-2 gap-10 mt-20">
+      <div className="grid grid-cols-2 gap-10 mt-20" id="title">
         <div className="flex flex-col justify-center items-center">
           <div className="text-left">
             <p className="font-bold text-[22px] font-tt-commons-pro ">

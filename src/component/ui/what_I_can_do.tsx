@@ -1,7 +1,7 @@
 function can_do() {
   return (
     <>
-      <div className="mt-40 p-8">
+      <div className="mt-40 p-8" >
         <div className="w-full px-8">
           <h1 className="font-tt-backwards text-6xl font-medium text-[#735E59]">
             What I can do for you

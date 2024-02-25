@@ -1,7 +1,7 @@
 function contact_me() {
   return (
     <>
-      <div className="mt-40 p-8">
+      <div className="mt-40 p-8" id="contact_me">
         <div className="w-full px-8">
           <h1 className="font-tt-backwards text-6xl font-medium text-[#735E59]">
             I'd love to work with you. Contact me now.
