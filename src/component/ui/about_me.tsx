@@ -1,8 +1,8 @@
 function about_me() {
   return (
     <>
-      <div className="mt-40 p-10">
-        <div className="w-full px-56">
+      <div className="mt-40 p-12">
+        <div className="w-full px-8">
           <h1 className="font-tt-backwards text-6xl font-medium text-[#735E59]">
             About me
           </h1>
