@@ -6,6 +6,7 @@
   src: url("path/to/font/TTCommonsPro-Regular.ttf") format("truetype");
 }
 html {
+  scroll-behavior: smooth;
   background-color: rgb(231 223 216);
 }
 
@@ -36,7 +37,3 @@ html {
   src: url("path/to/font/CanvaSans-Bold.ttf") format("truetype");
   font-weight: bold;
 }
-
-
-
-

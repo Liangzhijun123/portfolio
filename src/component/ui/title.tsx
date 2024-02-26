@@ -1,15 +1,20 @@
+import { Bounce } from "react-awesome-reveal";
+
 function title() {
   return (
     <>
-      <div className="grid grid-cols-2 gap-10 mt-20" id="title">
+      <div className="grid grid-cols-2 gap-10 mt-36 mb-52" id="title">
         <div className="flex flex-col justify-center items-center">
           <div className="text-left">
             <p className="font-bold text-[22px] font-tt-commons-pro ">
               Hello everyone! My name is
             </p>
-            <h1 className="font-agrandir font-bold text-[72px]">
-              Zhi Jun Liang
-            </h1>
+            <Bounce>
+              <h1 className="font-agrandir font-bold text-[72px]">
+                Zhi Jun Liang
+              </h1>
+            </Bounce>
+
             <p className="font-bold text-[22px] font-tt-commons-pro">
               I am a web designer / web developer
             </p>
