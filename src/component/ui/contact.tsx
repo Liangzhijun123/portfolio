@@ -13,29 +13,41 @@ function contact_me() {
             <img src="/conn.png" width={400} height={200}></img>
           </div>
           <div className="flex flex-col text-left justify-center  ">
-            <div className="font-tt-commons-pro text-[24px] font-bold text-[#544541]">Phone</div>
-            <div className="font-tt-commons-pro text-[20px]">(917) 608-2248</div>
-            <div className="font-tt-commons-pro text-[24px] font-bold text-[#544541]">Email</div>
-            <div className="font-tt-commons-pro text-[20px]">liangzhijun1216@gmail.com</div>
-            <div className="font-tt-commons-pro text-[24px] font-bold text-[#544541]">Social</div>
+            <div className="font-tt-commons-pro text-[24px] font-bold text-[#544541]">
+              Phone
+            </div>
+            <div className="font-tt-commons-pro text-[20px]">
+              (917) 608-2248
+            </div>
+            <div className="font-tt-commons-pro text-[24px] font-bold text-[#544541]">
+              Email
+            </div>
+            <div className="font-tt-commons-pro text-[20px]">
+              liangzhijun1216@gmail.com
+            </div>
+            <div className="font-tt-commons-pro text-[24px] font-bold text-[#544541]">
+              Social
+            </div>
             <div className="flex flex-row">
               <div>
-                <a href="https://www.facebook.com/profile.php?id=100009393358604" target="_blank">
+                <a
+                  href="https://www.facebook.com/profile.php?id=100009393358604"
+                  target="_blank"
+                >
                   <img src="/fb.png"></img>
                 </a>
               </div>
-              <div>
-                <a href="https://www.instagram.com/swankiersta/" target="_blank">
-                  <img src="/insta.png"></img>
-                </a>
-              </div>
+
               <div>
                 <a href="https://twitter.com/n2nitrogenacid" target="_blank">
                   <img src="/twitter.png"></img>
                 </a>
               </div>
               <div>
-                <a href="https://www.linkedin.com/in/zhi-jun-liang-9b1752228/" target="_blank">
+                <a
+                  href="https://www.linkedin.com/in/zhi-jun-liang-9b1752228/"
+                  target="_blank"
+                >
                   <img src="/linkein.png"></img>
                 </a>
               </div>

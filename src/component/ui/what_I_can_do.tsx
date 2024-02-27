@@ -12,13 +12,20 @@ function can_do() {
         <div className="grid 2xl:grid-cols-3 lg:grid-cols-2  relative mt-16  overflow-hidden">
           <div className="flex flex-col items-center">
             <div>
-              <img
-                className="pb-4 border-b-2 border-black mb-2"
-                src="/pic.png"
-                alt="myimage"
-                height={200}
-                width={500}
-              />
+              <a
+                href="https://ecommerce-full-stack-jet.vercel.app/  "
+                target="_blank"
+                className=""
+              >
+                {" "}
+                <img
+                  className="pb-4 border-b-2 border-black mb-2 hover:scale-105"
+                  src="/pic.png"
+                  alt="myimage"
+                  height={200}
+                  width={500}
+                />
+              </a>
 
               <div className="grid grid-cols-2">
                 <div className="font-tt-commons-pro font-bold text-[#544541]">
@@ -44,13 +51,16 @@ function can_do() {
 
           <div className="flex flex-col items-center">
             <div>
-              <img
-                className="pb-4 border-b-2 border-black mb-2"
-                src="/pic1.png"
-                alt="myimage"
-                height={200}
-                width={500}
-              />
+              <a href="#">
+                {" "}
+                <img
+                  className="pb-4 border-b-2 border-black mb-2 hover:scale-105"
+                  src="/pic1.png"
+                  alt="myimage"
+                  height={200}
+                  width={500}
+                />
+              </a>
 
               <div className="grid grid-cols-2">
                 <div className="font-tt-commons-pro font-bold text-[#544541] text-[14px]">
@@ -77,19 +87,21 @@ function can_do() {
 
           <div className="flex items-center flex-col">
             <div>
-              <img
-                className="pb-4 border-b-2 border-black mb-2"
-                src="/pic2.png"
-                alt="myimage"
-                height={200}
-                width={500}
-              />
+              <a href="#">
+                <img
+                  className="pb-4 border-b-2 border-black mb-2 hover:scale-105"
+                  src="/pic2.png"
+                  alt="myimage"
+                  height={200}
+                  width={500}
+                />
+              </a>
 
               <div className="grid grid-cols-2">
                 <div className="font-tt-commons-pro font-bold text-[#544541] text-[14px]">
                   Project
                 </div>
-                <div className="font-tt-commons-pro text-[#544541 text-[14px]]">
+                <div className="font-tt-commons-pro text-[#544541] text-[14px]">
                   Travel to China
                 </div>
                 <div className="font-tt-commons-pro font-bold text-[#544541] text-[14px]">
