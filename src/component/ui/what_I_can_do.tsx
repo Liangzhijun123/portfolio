@@ -1,5 +1,3 @@
-
-
 function can_do() {
   return (
     <>
@@ -33,6 +31,18 @@ function can_do() {
               <div className="font-tt-commons-pro text-[#544541]">
                 Group project
               </div>
+              <div>
+                {" "}
+                <a href="https://github.com/Liangzhijun123/ecom">
+                  <img src="/github.png"></img>
+                </a>
+              </div>
+              <div>
+                {" "}
+                <a href="https://www.figma.com/file/r31HvMoSMr2TOsxFFvhZCr/e-commerce-site-for-a-camera-store?type=design&node-id=0%3A1&mode=design&t=q9X17JKuU5KE5YIy-1">
+                  <img src="/figma.png"></img>
+                </a>
+              </div>
             </div>
           </div>
 
@@ -58,6 +68,18 @@ function can_do() {
               <div className="font-tt-commons-pro text-[#544541] text-[14px]">
                 Commerical/business (work in progress)
               </div>
+              <div>
+                {" "}
+                <a href="#">
+                  <img src="/github.png"></img>
+                </a>
+              </div>
+              <div>
+                {" "}
+                <a href="https://www.figma.com/file/7xJNdNuXfmmeVSLFXG7AFu/shop?type=design&mode=design&t=q9X17JKuU5KE5YIy-1">
+                  <img src="/figma.png"></img>
+                </a>
+              </div>
             </div>
           </div>
 
@@ -82,6 +104,18 @@ function can_do() {
               </div>
               <div className="font-tt-commons-pro text-[#544541] text-[14px]">
                 Travel website
+              </div>
+              <div>
+                {" "}
+                <a href="#">
+                  <img src="/github.png"></img>
+                </a>
+              </div>
+              <div>
+                {" "}
+                <a href="https://www.figma.com/file/CqYgZKIQIfic8eJEJu2RiE/china-website?type=design&node-id=0%3A1&mode=design&t=Sfcr6CjK8mOxy2fJ-1">
+                  <img src="/figma.png"></img>
+                </a>
               </div>
             </div>
           </div>
