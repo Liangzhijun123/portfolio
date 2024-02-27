@@ -1,4 +1,4 @@
-import Reveal from "./reveal";
+
 
 function can_do() {
   return (
