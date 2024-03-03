@@ -49,7 +49,7 @@ function can_do() {
             </div>
           </div>
 
-          <div className="flex flex-col items-center">
+          {/* <div className="flex flex-col items-center">
             <div>
               <a href="#">
                 {" "}
@@ -83,9 +83,9 @@ function can_do() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
 
-          <div className="flex items-center flex-col">
+          {/* <div className="flex items-center flex-col">
             <div>
               <a href="#">
                 <img
@@ -118,7 +118,7 @@ function can_do() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </>
