@@ -1,6 +1,8 @@
-import { Bounce } from "react-awesome-reveal";
+import React from 'react';
+import { Bounce } from 'react-awesome-reveal';
+import VisitorCounter from './visitor'; 
 
-function title() {
+function Title() {
   return (
     <>
       <div className="grid grid-cols-2 gap-10 mt-36 mb-52" id="title">
@@ -18,6 +20,7 @@ function title() {
             <p className="font-bold text-[22px] font-tt-commons-pro">
               I am a web designer / web developer
             </p>
+            <VisitorCounter />
           </div>
         </div>
         <div className="flex justify-center items-center">
@@ -26,8 +29,9 @@ function title() {
           </div>
         </div>
       </div>
+     
     </>
   );
 }
 
-export default title;
+export default Title;
