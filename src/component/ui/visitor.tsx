@@ -4,15 +4,23 @@ const VisitorCounter = () => {
   const [visitorCount, setVisitorCount] = useState(0);
 
   useEffect(() => {
-    const retrieveVisitorCount = () => {
-      const countString = localStorage.getItem("visitorCount");
-      if (countString !== null) {
-        const count = parseInt(countString);
-        setVisitorCount(count);
-      }
+    // Retrieve visitor count from local storage
+    const countString = localStorage.getItem("visitorCount");
+    if (countString !== null) {
+      const count = parseInt(countString);
+      setVisitorCount(count);
+    }
+  }, []);
+
+  useEffect(() => {
+    // Increment visitor count and update local storage
+    const increaseVisitorCount = () => {
+      const newCount = visitorCount + 1;
+      setVisitorCount(newCount);
+      localStorage.setItem("visitorCount", newCount.toString());
     };
 
-    retrieveVisitorCount();
+    increaseVisitorCount();
   }, []);
   return (
     <div className="mt-5 pr-56 items-center ">
