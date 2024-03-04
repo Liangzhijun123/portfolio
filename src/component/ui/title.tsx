@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Bounce } from 'react-awesome-reveal';
 import VisitorCounter from './visitor'; 
 
