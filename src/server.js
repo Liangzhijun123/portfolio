@@ -12,7 +12,7 @@ connect('mongodb://localhost:27017/visitor-counter', {
   useUnifiedTopology: true,
 });
 
-const vercelBaseUrl = 'https://portfolio-liart-iota.vercel.app';
+const vercelBaseUrl = 'https://portfolio-hm454aw94-n2s-projects-18211ae8.vercel.app';
 
 app.get('/api/visitor-count', async (req, res) => {
   try {
