@@ -24,7 +24,7 @@ function about_me() {
             life through design and collaboration. There's something incredibly
             fulfilling about working alongside a partner to create innovative
             projects that captivate audiences. Whether it's brainstorming ideas
-            or diving deep into coding, the collaborative process has pushes me
+            or diving deep into coding, the collaborative process has pushed me
             beyond the limits.{" "}
           </p>
 
