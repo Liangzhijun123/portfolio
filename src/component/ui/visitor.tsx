@@ -1,27 +1,36 @@
 import { useEffect, useState } from 'react';
-
+import axios from 'axios'; 
 
 const VisitorCounter = () => {
-  const [visitorCount, setVisitorCount] = useState(() => {
-    const savedCount = localStorage.getItem('visitorCount');
-    return savedCount ? parseInt(savedCount) : 0;
-  });
+  const [visitorCount, setVisitorCount] = useState(0);
 
-  const handleClick = () => {
-    let userId = localStorage.getItem('userId');
-    userId = userId ? userId : ''; 
+  useEffect(() => {
+    
+    fetchVisitorCount();
+  }, []);
 
-    const visited = localStorage.getItem('visited');
-
-    if (!visited || visited !== userId) {
-      setVisitorCount(prevCount => prevCount + 1);
-      localStorage.setItem('visited', userId);
+  const fetchVisitorCount = async () => {
+    try {
+      const response = await axios.get('/api/visitor-count');
+      setVisitorCount(response.data.visitorCount);
+    } catch (error) {
+      console.error('Error fetching visitor count:', error);
     }
   };
 
-  useEffect(() => {
-    localStorage.setItem('visitorCount', visitorCount.toString());
-  }, [visitorCount]);
+  const incrementVisitorCount = async () => {
+    try {
+      await axios.post('/api/increment-visitor-count');
+      setVisitorCount(prevCount => prevCount + 1);
+    } catch (error) {
+      console.error('Error incrementing visitor count:', error);
+    }
+  };
+
+  const handleClick = () => {
+    incrementVisitorCount();
+  };
+
 
   return (
     <div className="flex justify-center items-center pr-32 mt-10 ">
