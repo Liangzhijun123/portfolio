@@ -1,47 +1,36 @@
-import { useState, useEffect } from "react";
+import { useEffect, useState } from 'react';
+
 
 const VisitorCounter = () => {
-  const [visitorCount, setVisitorCount] = useState(0);
+  const [visitorCount, setVisitorCount] = useState(() => {
+    const savedCount = localStorage.getItem('visitorCount');
+    return savedCount ? parseInt(savedCount) : 0;
+  });
 
-  useEffect(() => {
-    const retrieveVisitorCount = () => {
-      const countString = localStorage.getItem("visitorCount");
-      if (countString !== null) {
-        const count = parseInt(countString);
-        setVisitorCount(count);
-      }
-    };
+  const handleClick = () => {
+    let userId = localStorage.getItem('userId');
+    userId = userId ? userId : ''; 
 
-    retrieveVisitorCount();
-  }, []);
+    const visited = localStorage.getItem('visited');
 
-  useEffect(() => {
-    const handleLinkClick = () => {
-      setVisitorCount(prevCount => {
-        const newCount = prevCount + 1;
-        localStorage.setItem("visitorCount", newCount.toString());
-        return newCount;
-      });
-    };
-
-
-    const link = document.querySelector("a[href='https://portfolio-liart-iota.vercel.app/']");
-    if (link) {
-      link.addEventListener("click", handleLinkClick);
+    if (!visited || visited !== userId) {
+      setVisitorCount(prevCount => prevCount + 1);
+      localStorage.setItem('visited', userId);
     }
+  };
 
-    return () => {
-     
-      if (link) {
-        link.removeEventListener("click", handleLinkClick);
-      }
-    };
-  }, []);
+  useEffect(() => {
+    localStorage.setItem('visitorCount', visitorCount.toString());
+  }, [visitorCount]);
+
   return (
-    <div className="mt-5 pr-56 items-center ">
+    <div className="flex justify-center items-center pr-32 mt-10 ">
       <div className="text-center">
-        <h1 className="text-4xl  mb-4 pl-5">Visitor Count: </h1>
+        <h1 className="text-4xl  mb-4">Visitor Count</h1>
         <p className="text-6xl  text-blue-500">{visitorCount}</p>
+        <button onClick={handleClick} className="mt-4 bg-blue-500 text-white px-4 py-2 rounded">
+          click this button :D
+        </button>
       </div>
     </div>
   );

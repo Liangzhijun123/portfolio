@@ -1,6 +1,6 @@
 
 import { Bounce } from 'react-awesome-reveal';
-// import VisitorCounter from './visitor'; 
+import VisitorCounter from './visitor'; 
 
 function Title() {
   return (
@@ -20,8 +20,9 @@ function Title() {
             <p className="font-bold text-[22px] font-tt-commons-pro">
               I am a web designer / web developer
             </p>
-            {/* <VisitorCounter /> */}
+            
           </div>
+          <VisitorCounter />
         </div>
         <div className="flex justify-center items-center">
           <div className="bg-white p-4">
