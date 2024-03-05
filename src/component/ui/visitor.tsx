@@ -4,23 +4,38 @@ const VisitorCounter = () => {
   const [visitorCount, setVisitorCount] = useState(0);
 
   useEffect(() => {
-    // Retrieve visitor count from local storage
-    const countString = localStorage.getItem("visitorCount");
-    if (countString !== null) {
-      const count = parseInt(countString);
-      setVisitorCount(count);
-    }
+    const retrieveVisitorCount = () => {
+      const countString = localStorage.getItem("visitorCount");
+      if (countString !== null) {
+        const count = parseInt(countString);
+        setVisitorCount(count);
+      }
+    };
+
+    retrieveVisitorCount();
   }, []);
 
   useEffect(() => {
-    // Increment visitor count and update local storage
-    const increaseVisitorCount = () => {
-      const newCount = visitorCount + 1;
-      setVisitorCount(newCount);
-      localStorage.setItem("visitorCount", newCount.toString());
+    const handleLinkClick = () => {
+      setVisitorCount(prevCount => {
+        const newCount = prevCount + 1;
+        localStorage.setItem("visitorCount", newCount.toString());
+        return newCount;
+      });
     };
 
-    increaseVisitorCount();
+
+    const link = document.querySelector("a[href='https://portfolio-liart-iota.vercel.app/']");
+    if (link) {
+      link.addEventListener("click", handleLinkClick);
+    }
+
+    return () => {
+     
+      if (link) {
+        link.removeEventListener("click", handleLinkClick);
+      }
+    };
   }, []);
   return (
     <div className="mt-5 pr-56 items-center ">
