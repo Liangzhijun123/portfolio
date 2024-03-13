@@ -44,6 +44,11 @@ function contact_me() {
                 </a>
               </div>
               <div>
+                <a href="https://github.com/Liangzhijun123?tab=repositories" target="_blank">
+                  <img src="/github.png"></img>
+                </a>
+              </div>
+              <div>
                 <a
                   href="https://www.linkedin.com/in/zhi-jun-liang-9b1752228/"
                   target="_blank"
