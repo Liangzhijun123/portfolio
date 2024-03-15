@@ -49,9 +49,9 @@ function can_do() {
             </div>
           </div>
 
-          {/* <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center">
             <div>
-              <a href="#">
+              <a href="https://www.figma.com/proto/7xJNdNuXfmmeVSLFXG7AFu/shop?type=design&node-id=132-14&t=F8pwueNsNTZkTPUq-0&scaling=scale-down&page-id=0%3A1" target="_blank">
                 {" "}
                 <img
                   className="pb-4 border-b-2 border-black mb-2 hover:scale-105"
@@ -79,15 +79,15 @@ function can_do() {
                   Type
                 </div>
                 <div className="font-tt-commons-pro text-[#544541] text-[14px]">
-                  Commerical/business (work in progress)
+                  Individual figma web design
                 </div>
               </div>
             </div>
-          </div> */}
+          </div>
 
-          {/* <div className="flex items-center flex-col">
+          <div className="flex items-center flex-col">
             <div>
-              <a href="#">
+              <a href="https://www.figma.com/proto/uNQOJ2RWc17GwoI0qzc3b9/veteransponsored?type=design&node-id=1-2&t=f2VIEGgioeJ2TwQr-0&scaling=scale-down&page-id=0%3A1" target="_blank">
                 <img
                   className="pb-4 border-b-2 border-black mb-2 hover:scale-105"
                   src="/pic2.png"
@@ -102,23 +102,24 @@ function can_do() {
                   Project
                 </div>
                 <div className="font-tt-commons-pro text-[#544541] text-[14px]">
-                  Travel to China
+                  veteransponsor
                 </div>
                 <div className="font-tt-commons-pro font-bold text-[#544541] text-[14px]">
                   Year
                 </div>
                 <div className="font-tt-commons-pro text-[#544541] text-[14px]">
-                  2023
+                  2024
                 </div>
                 <div className="font-tt-commons-pro font-bold text-[#544541] text-[14px]">
                   Type
                 </div>
                 <div className="font-tt-commons-pro text-[#544541] text-[14px]">
-                  Travel website
+                  web design for sponsoring the veteran <br/>
+                  original website: <a href="https://veteranshonored.org/services/" target="_blank"></a> <br/>
                 </div>
               </div>
             </div>
-          </div> */}
+          </div>
         </div>
       </div>
     </>
