@@ -9,7 +9,7 @@ function can_do() {
           <div className="bg-black h-0.5 "></div>
         </div>
 
-        <div className="grid 2xl:grid-cols-3 lg:grid-cols-2  relative mt-16  overflow-hidden">
+        <div className="grid 2xl:grid-cols-3 lg:grid-cols-2  relative mt-16  overflow-hidden p-7">
           <div className="flex flex-col items-center">
             <div>
               <a
@@ -102,7 +102,7 @@ function can_do() {
                   Project
                 </div>
                 <div className="font-tt-commons-pro text-[#544541] text-[14px]">
-                  veteransponsor
+                  Veteransponsor
                 </div>
                 <div className="font-tt-commons-pro font-bold text-[#544541] text-[14px]">
                   Year
@@ -114,8 +114,8 @@ function can_do() {
                   Type
                 </div>
                 <div className="font-tt-commons-pro text-[#544541] text-[14px]">
-                  web design for sponsoring the veteran <br/>
-                  original website: <a href="https://veteranshonored.org/services/" target="_blank"></a> <br/>
+                  Web design for sponsoring the veteran <br/>
+                <a href="https://veteranshonored.org/services/" target="_blank" className="hover:underline  hover:text-[#58a2f5]"> Original website </a> <br/>
                 </div>
               </div>
             </div>
