@@ -90,7 +90,7 @@ function can_do() {
               <a href="https://www.figma.com/proto/uNQOJ2RWc17GwoI0qzc3b9/veteransponsored?type=design&node-id=1-2&t=f2VIEGgioeJ2TwQr-0&scaling=scale-down&page-id=0%3A1" target="_blank">
                 <img
                   className="pb-4 border-b-2 border-black mb-2 hover:scale-105"
-                  src="/pic2.png"
+                  src="/pic3.png"
                   alt="myimage"
                   height={200}
                   width={500}
@@ -116,6 +116,28 @@ function can_do() {
                 <div className="font-tt-commons-pro text-[#544541] text-[14px]">
                   Web design for sponsoring the veteran <br/>
                 <a href="https://veteranshonored.org/services/" target="_blank" className="hover:underline  hover:text-[#58a2f5]"> Original website </a> <br/>
+                </div>
+              </div>
+
+              <div className="grid grid-cols-2">
+                <div className="font-tt-commons-pro font-bold text-[#544541] text-[14px]">
+                  Project
+                </div>
+                <div className="font-tt-commons-pro text-[#544541] text-[14px]">
+                  Management app for airport in Japan
+                </div>
+                <div className="font-tt-commons-pro font-bold text-[#544541] text-[14px]">
+                  Year
+                </div>
+                <div className="font-tt-commons-pro text-[#544541] text-[14px]">
+                  2024
+                </div>
+                <div className="font-tt-commons-pro font-bold text-[#544541] text-[14px]">
+                  Type
+                </div>
+                <div className="font-tt-commons-pro text-[#544541] text-[14px]">
+                  Web design for mobile app airport in Japan <br/>
+                <a href="https://www.figma.com/proto/RtqZg8YmHdXJrNs6naLowW/management-app-for-airport-in-japan?type=design&node-id=2-2&t=eyiUN3hxaaCD7EuP-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=2%3A2&mode=design" target="_blank" className="hover:underline  hover:text-[#58a2f5]"></a> <br/>
                 </div>
               </div>
             </div>
