@@ -135,7 +135,7 @@ function can_do() {
           <div className="flex items-center flex-col mt-10">
             <div>
               <a
-                href="https://www.figma.com/proto/uNQOJ2RWc17GwoI0qzc3b9/veteransponsored?type=design&node-id=1-2&t=f2VIEGgioeJ2TwQr-0&scaling=scale-down&page-id=0%3A1"
+                href="https://www.figma.com/proto/dqXTuN0fxFodAwFQkaQQLZ/smoothies?type=design&node-id=3-189&t=lXzDz6o7bKMhWG8O-1&scaling=scale-down&page-id=0%3A1&mode=design"
                 target="_blank"
               >
                 <img
