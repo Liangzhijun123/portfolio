@@ -91,7 +91,7 @@ function can_do() {
           <div className="flex items-center flex-col">
             <div>
               <a
-                href="https://www.figma.com/proto/uNQOJ2RWc17GwoI0qzc3b9/veteransponsored?type=design&node-id=1-2&t=f2VIEGgioeJ2TwQr-0&scaling=scale-down&page-id=0%3A1"
+                href="https://www.figma.com/proto/RtqZg8YmHdXJrNs6naLowW/management-app-for-airport-in-japan?type=design&node-id=2-2&t=oYkeLAIqtLQSw00G-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=2%3A2"
                 target="_blank"
               >
                 <img
@@ -121,12 +121,7 @@ function can_do() {
                 </div>
                 <div className="font-tt-commons-pro text-[#544541] text-[14px]">
                   Web design for mobile app airport in Japan <br />
-                  <a
-                    href="https://www.figma.com/proto/RtqZg8YmHdXJrNs6naLowW/management-app-for-airport-in-japan?type=design&node-id=2-2&t=oYkeLAIqtLQSw00G-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=2%3A2"
-                    target="_blank"
-                    className="hover:underline  hover:text-[#58a2f5]"
-                  ></a>{" "}
-                  <br />
+                 
                 </div>
               </div>
             </div>
@@ -179,7 +174,7 @@ function can_do() {
           <div className="flex items-center flex-col mt-10">
             <div>
               <a
-                href="https://www.figma.com/proto/dqXTuN0fxFodAwFQkaQQLZ/smoothies?type=design&node-id=3-189&t=lXzDz6o7bKMhWG8O-1&scaling=scale-down&page-id=0%3A1&mode=design"
+                href="https://www.figma.com/proto/uNQOJ2RWc17GwoI0qzc3b9/veteransponsored?type=design&t=u8jDaxvxnypO5onW-1&scaling=scale-down&page-id=0%3A1&node-id=1-2&starting-point-node-id=1%3A2&mode=design"
                 target="_blank"
               >
                 <img
@@ -209,11 +204,11 @@ function can_do() {
                 </div>
                 <div className="font-tt-commons-pro text-[#544541] text-[14px]">
                   Web design for sponsoring the verterans <br />
-                  <a
+                  {/* <a
                     href="https://www.figma.com/proto/uNQOJ2RWc17GwoI0qzc3b9/veteransponsored?type=design&t=trzSmcTdPBNRIs8F-1&scaling=scale-down&page-id=0%3A1&node-id=1-2&starting-point-node-id=1%3A2&mode=design"
                     target="_blank"
                     className="hover:underline  hover:text-[#58a2f5]"
-                  ></a>{" "}
+                  ></a>{" "} */}
                   <br />
                 </div>
               </div>
