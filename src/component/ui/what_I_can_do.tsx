@@ -95,7 +95,7 @@ function can_do() {
                 target="_blank"
               >
                 <img
-                  className="pb-4 border-b-2 border-black mb-2 hover:scale-105"
+                  className="pb-4 border-b-2 border-black mb-2 hover:scale-105 "
                   src="/pic4.png"
                   alt="myimage"
                   height={300}
