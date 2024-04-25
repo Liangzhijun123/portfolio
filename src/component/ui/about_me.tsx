@@ -13,7 +13,7 @@ function about_me() {
             Hello There!
           </h1>
         </div>
-        <div className="flex flex-col items-center justify-center gap-8 px-80 text-2xl font-extralight text-center ">
+        <div className="flex flex-col items-center justify-center  gap-8 md:px-40 lg:px-80 px-10 text-2xl font-extralight text-center w-full">
           <p className="font-tt-commons-pro ">
             I'm a second-year student at Rochester Institute of Technology, with
             a passion for web and mobile computing.{" "}

@@ -1,18 +1,18 @@
 
 import { Bounce } from 'react-awesome-reveal';
-// import VisitorCounter from './visitor'; 
+ 
 
 function Title() {
   return (
     <>
-      <div className="grid grid-cols-2 gap-10 mt-36 mb-52" id="title">
-        <div className="flex flex-col justify-center items-center">
-          <div className="text-left">
+      <div className="grid grid-cols-2 gap-10 mt-36 mb-52 w-full px-10"  id="title">
+        <div className="flex flex-col justify-center items-center ">
+          <div className=" ">
             <p className="font-bold text-[22px] font-tt-commons-pro ">
               Hello everyone! My name is
             </p>
             <Bounce>
-              <h1 className="font-agrandir font-bold text-[72px]">
+              <h1 className="font-agrandir font-bold md:text-[72px] text-[32px] ">
                 Zhi Jun Liang
               </h1>
             </Bounce>

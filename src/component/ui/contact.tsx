@@ -8,7 +8,7 @@ function contact_me() {
           </h1>
           <div className="bg-black h-0.5 w-full"></div>
         </div>
-        <div className="grid grid-cols-2 px-60 mt-16">
+        <div className="grid grid-cols-2 lg:px-60 md:px-30 mt-16 gap-10">
           <div>
             <img src="/conn.png" width={400} height={200}></img>
           </div>
