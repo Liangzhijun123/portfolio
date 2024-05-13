@@ -1,3 +1,9 @@
+import conn from "../images/conn.png";
+import facebook from "../images/fb.png";
+import twitter from "../images/twitter.png";
+import github from "../images/github.png";
+import linkedin from "../images/linkein.png";
+
 function contact_me() {
   return (
     <>
@@ -10,7 +16,7 @@ function contact_me() {
         </div>
         <div className="grid grid-cols-2 lg:px-60 md:px-30 mt-16 gap-10">
           <div>
-            <img src="/conn.png" width={400} height={200}></img>
+            <img src={conn} width={400} height={200}></img>
           </div>
           <div className="flex flex-col text-left justify-center  ">
             <div className="font-tt-commons-pro text-[24px] font-bold text-[#544541]">
@@ -34,18 +40,18 @@ function contact_me() {
                   href="https://www.facebook.com/profile.php?id=100009393358604"
                   target="_blank"
                 >
-                  <img src="/fb.png"></img>
+                  <img src={facebook}></img>
                 </a>
               </div>
 
               <div>
                 <a href="https://twitter.com/n2nitrogenacid" target="_blank">
-                  <img src="/twitter.png"></img>
+                  <img src={twitter}></img>
                 </a>
               </div>
               <div>
                 <a href="https://github.com/Liangzhijun123?tab=repositories" target="_blank">
-                  <img src="/github.png"></img>
+                  <img src={github}></img>
                 </a>
               </div>
               <div>
@@ -53,7 +59,7 @@ function contact_me() {
                   href="https://www.linkedin.com/in/zhi-jun-liang-9b1752228/"
                   target="_blank"
                 >
-                  <img src="/linkein.png"></img>
+                  <img src={linkedin}></img>
                 </a>
               </div>
             </div>

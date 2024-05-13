@@ -1,4 +1,45 @@
+import img1 from "../images/pic.png";
+import img2 from "../images/pic1.png";
+import img3 from "../images/pic2.png";
+import img4 from "../images/pic3.png";
+import img5 from "../images/pic4.png";
+
+
+
+
 function can_do() {
+  const items = [
+    {
+      img: img1,
+      project_title: "E-commerce",
+      year:"2024",   
+      type: "Group project",
+    },
+    {
+      img: img2,
+      project_title: "Crochet Cuteness",
+      year:"2024",   
+      type: "Commercial/business web design",
+    },
+    {
+      img: img3,
+      project_title: "Founding Story",
+      year:"2021",   
+      type: "Group project",
+    },
+    {
+      img: img4,
+      project_title: "Founding Story",
+      year:"2021",   
+      type: "Group project",
+    },
+    {
+      img: img5,
+      project_title: "Founding Story",
+      year:"2021",   
+      type: "Group project",
+    },
+  ];
   return (
     <>
       <div className="mt-40 p-8">
@@ -9,7 +50,7 @@ function can_do() {
           <div className="bg-black h-0.5 "></div>
         </div>
 
-        <div className="grid 2xl:grid-cols-3 lg:grid-cols-2  relative mt-16  overflow-hidden p-12">
+        {/* <div className="grid md:grid-cols-3 grid-cols-1 relative mt-16  overflow-hidden p-12">
           <div className="flex flex-col items-center">
             <div>
               <a
@@ -204,17 +245,13 @@ function can_do() {
                 </div>
                 <div className="font-tt-commons-pro text-[#544541] text-[14px]">
                   Web design for sponsoring the verterans <br />
-                  {/* <a
-                    href="https://www.figma.com/proto/uNQOJ2RWc17GwoI0qzc3b9/veteransponsored?type=design&t=trzSmcTdPBNRIs8F-1&scaling=scale-down&page-id=0%3A1&node-id=1-2&starting-point-node-id=1%3A2&mode=design"
-                    target="_blank"
-                    className="hover:underline  hover:text-[#58a2f5]"
-                  ></a>{" "} */}
+               
                   <br />
                 </div>
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </>
   );

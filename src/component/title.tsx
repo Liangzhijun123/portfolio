@@ -1,11 +1,11 @@
 
 import { Bounce } from 'react-awesome-reveal';
- 
+import img1 from "../images/myimage.png";
 
 function Title() {
   return (
     <>
-      <div className="grid grid-cols-2 gap-10 mt-36 mb-52 w-full px-10"  id="title">
+      <div className="grid md:grid-cols-2 grid-cols-1 gap-10 mt-36 mb-52 w-full px-10"  id="title">
         <div className="flex flex-col justify-center items-center ">
           <div className=" ">
             <p className="font-bold text-[22px] font-tt-commons-pro ">
@@ -26,7 +26,7 @@ function Title() {
         </div>
         <div className="flex justify-center items-center">
           <div className="bg-white p-4">
-            <img src="/myimage.png" alt="myimage" height={200} width={500} />
+            <img src={img1} alt="myimage" height={200} width={500} />
           </div>
         </div>
       </div>
