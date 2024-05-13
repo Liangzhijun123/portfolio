@@ -37,3 +37,14 @@ html {
   src: url("path/to/font/CanvaSans-Bold.ttf") format("truetype");
   font-weight: bold;
 }
+
+
+
+@font-face {
+  font-family: 'tt-backwards';
+  src: url('../fonts/font-tt-backwards.ttf') format('truetype'),
+       url('../fonts/font-tt-backwards.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+

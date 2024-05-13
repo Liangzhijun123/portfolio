@@ -59,52 +59,40 @@ function can_do() {
   ];
   return (
     <>
-      <div className="mt-40 p-8">
-        <div className="w-full px-8">
-          <h1 className="font-tt-backwards text-6xl font-medium text-[#735E59]">
-            What I can do for you
-          </h1>
-          <div className="bg-black h-0.5 "></div>
-        </div>
-
-        <div className="grid md:grid-cols-3 grid-cols-1 md:gap-10 gap-5 justify-evenly mt-10">
-          {items.map((item, index) => (
-            <div key={index}>
-              <a href={item.link} target="_blank" rel="noopener noreferrer">
-                <img
-                  src={item.img}
-                  alt={item.project_title}
-                  style={{
-                    width: "100%",
-                    height: "350px",
-                    objectFit: "cover",
-                    borderBottom: "6px solid black",
-                  }}
-                />
-              </a>
-
-              <div className="grid grid-cols-2 ">
-                <div className="font-tt-commons-pro font-bold text-[#544541]">
-                  {item.title}{" "}
-                </div>
-                <div className="font-tt-commons-pro ">
-                  {" "}
-                  {item.project_title}
-                </div>
-                <div className="font-tt-commons-pro font-bold text-[#544541]">
-                  {item.year_title}{" "}
-                </div>
-                <div className="font-tt-commons-pro">{item.type_title} </div>
-                <div className="font-tt-commons-pro font-bold text-[#544541]">
-                  {item.year}
-                </div>
-                <div className="font-tt-commons-pro">{item.type}</div>
-              </div>
-            </div>
-          ))}
-        </div>
+    <div className="mt-40 p-2 flex flex-col items-center ml-10 px-5">
+      <div className="w-full">
+        <h1 className="font-tt-backwards md:text-6xl font-medium text-[#735E59] text-[24px]">
+          What I can do for you
+        </h1>
+        <div className="bg-black h-0.5"></div>
       </div>
-    </>
+
+      <div className="grid grid-cols-1 md:grid-cols-3 md:gap-5 gap-10 justify-center mt-10 ">
+        {items.map((item, index) => (
+          <div key={index} className="">
+            <a href={item.link} target="_blank" rel="noopener noreferrer">
+              <img src={item.img} alt={item.project_title} className="w-full" />
+            </a>
+
+            <div className="grid grid-cols-2 mt-2">
+              <div className="font-tt-commons-pro font-bold text-[#544541]">
+                {item.title}{" "}
+              </div>
+              <div className="font-tt-commons-pro"> {item.project_title}</div>
+              <div className="font-tt-commons-pro font-bold text-[#544541]">
+                {item.year_title}{" "}
+              </div>
+              <div className="font-tt-commons-pro">{item.type_title} </div>
+              <div className="font-tt-commons-pro font-bold text-[#544541]">
+                {item.year}
+              </div>
+              <div className="font-tt-commons-pro">{item.type}</div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </>
   );
 }
 

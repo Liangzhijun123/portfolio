@@ -3,18 +3,19 @@ import facebook from "../images/fb.png";
 import twitter from "../images/twitter.png";
 import github from "../images/github.png";
 import linkedin from "../images/linkein.png";
+import '../index.css';
 
 function contact_me() {
   return (
     <>
-      <div className="mt-40 p-8" id="contact_me">
-        <div className="w-full px-8">
-          <h1 className="font-tt-backwards text-6xl font-medium text-[#735E59]">
+      <div className="mt-40  flex flex-col items-center ml-10" id="contact_me">
+        <div className="w-full ">
+          <h1 className="font-tt-backwards md:text-6xl font-medium text-[#735E59] text-[24px] text-nowrap">
             I'd love to work with you. Contact me now.
           </h1>
           <div className="bg-black h-0.5 w-full"></div>
         </div>
-        <div className="grid grid-cols-2 lg:px-60 md:px-30 mt-16 gap-10">
+        <div className="grid md:grid-cols-2 grid-cols-1   mt-16 md:gap-[340px] gap-5">
           <div>
             <img src={conn} width={400} height={200}></img>
           </div>
