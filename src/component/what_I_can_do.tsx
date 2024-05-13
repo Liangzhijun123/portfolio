@@ -4,40 +4,57 @@ import img3 from "../images/pic2.png";
 import img4 from "../images/pic3.png";
 import img5 from "../images/pic4.png";
 
-
-
-
 function can_do() {
   const items = [
     {
       img: img1,
       project_title: "E-commerce",
-      year:"2024",   
+      title: "Project",
+      year: "2024",
+      year_title: "Year",
+      type_title: "Type",
       type: "Group project",
+      link: "https://www.figma.com/proto/r31HvMoSMr2TOsxFFvhZCr/e-commerce-site-for-a-camera-store?node-id=38-7&t=xcDbvrs6yY33owrH-1",
     },
     {
       img: img2,
       project_title: "Crochet Cuteness",
-      year:"2024",   
-      type: "Commercial/business web design",
-    },
-    {
-      img: img3,
-      project_title: "Founding Story",
-      year:"2021",   
-      type: "Group project",
+      title: "Project",
+      year: "2024",
+      year_title: "Year",
+      type_title: "Type",
+      type: "Commercial/business web design project",
+      link: "https://www.figma.com/proto/7xJNdNuXfmmeVSLFXG7AFu/shop?node-id=132-14&starting-point-node-id=132%3A14&t=0a6ur9FHQvAwRLE7-1",
     },
     {
       img: img4,
-      project_title: "Founding Story",
-      year:"2021",   
-      type: "Group project",
+      project_title: "Smoothie",
+      title: "Project",
+      year: "2024",
+      year_title: "Year",
+      type_title: "Type",
+      type: "Personal web design project",
+      link: "https://www.figma.com/proto/dqXTuN0fxFodAwFQkaQQLZ/smoothies?node-id=107-697&starting-point-node-id=107%3A697&t=Ng6C5VgiM058y17u-1",
+    },
+    {
+      img: img3,
+      project_title: "Veteran sponsored",
+      title: "Project",
+      year: "2024",
+      year_title: "Year",
+      type_title: "Type",
+      type: "Volunteer web design project",
+      link: "https://www.figma.com/proto/uNQOJ2RWc17GwoI0qzc3b9/veteransponsored?node-id=1-2&starting-point-node-id=1%3A2&t=dbA4k1oNWsNa05Gk-1",
     },
     {
       img: img5,
-      project_title: "Founding Story",
-      year:"2021",   
-      type: "Group project",
+      project_title: "Management app for airport in Japan",
+      title: "Project",
+      year: "2024",
+      year_title: "Year",
+      type_title: "Type",
+      type: "Person web design project",
+      link: "https://www.figma.com/proto/RtqZg8YmHdXJrNs6naLowW/management-app-for-airport-in-japan?node-id=12-160&t=wBeyt1JY8PNttAjp-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=2%3A2",
     },
   ];
   return (
@@ -50,208 +67,42 @@ function can_do() {
           <div className="bg-black h-0.5 "></div>
         </div>
 
-        {/* <div className="grid md:grid-cols-3 grid-cols-1 relative mt-16  overflow-hidden p-12">
-          <div className="flex flex-col items-center">
-            <div>
-              <a
-                href="https://ecommerce-full-stack-jet.vercel.app/  "
-                target="_blank"
-                className=""
-              >
-                {" "}
+        <div className="grid md:grid-cols-3 grid-cols-1 md:gap-10 gap-5 justify-evenly mt-10">
+          {items.map((item, index) => (
+            <div key={index}>
+              <a href={item.link} target="_blank" rel="noopener noreferrer">
                 <img
-                  className="pb-4 border-b-2 border-black mb-2 hover:scale-105"
-                  src="/pic.png"
-                  alt="myimage"
-                  height={200}
-                  width={500}
-                />
-              </a>
-
-              <div className="grid grid-cols-2">
-                <div className="font-tt-commons-pro font-bold text-[#544541]">
-                  Project
-                </div>
-                <div className="font-tt-commons-pro text-[#544541]">
-                  E-commerce
-                </div>
-                <div className="font-tt-commons-pro font-bold text-[#544541]">
-                  Year
-                </div>
-                <div className="font-tt-commons-pro text-[#544541]">2024</div>
-
-                <div className="font-tt-commons-pro font-bold text-[#544541]">
-                  Type
-                </div>
-                <div className="font-tt-commons-pro text-[#544541]">
-                  Group project
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="flex flex-col items-center">
-            <div>
-              <a
-                href="https://www.figma.com/proto/7xJNdNuXfmmeVSLFXG7AFu/shop?type=design&node-id=132-14&t=F8pwueNsNTZkTPUq-0&scaling=scale-down&page-id=0%3A1"
-                target="_blank"
-              >
-                {" "}
-                <img
-                  className="pb-4 border-b-2 border-black mb-2 hover:scale-105"
-                  src="/pic1.png"
-                  alt="myimage"
-                  height={200}
-                  width={500}
-                />
-              </a>
-
-              <div className="grid grid-cols-2">
-                <div className="font-tt-commons-pro font-bold text-[#544541] text-[14px]">
-                  Project
-                </div>
-                <div className="font-tt-commons-pro text-[#544541] text-[14px]">
-                  Crochet Cuteness
-                </div>
-                <div className="font-tt-commons-pro font-bold text-[#544541] text-[14px]">
-                  Year
-                </div>
-                <div className="font-tt-commons-pro text-[#544541] text-[14px]">
-                  2024
-                </div>
-                <div className="font-tt-commons-pro font-bold text-[#544541] text-[14px]">
-                  Type
-                </div>
-                <div className="font-tt-commons-pro text-[#544541] text-[14px]">
-                  Individual figma web design
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="flex items-center flex-col">
-            <div>
-              <a
-                href="https://www.figma.com/proto/RtqZg8YmHdXJrNs6naLowW/management-app-for-airport-in-japan?type=design&node-id=2-2&t=oYkeLAIqtLQSw00G-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=2%3A2"
-                target="_blank"
-              >
-                <img
-                  className="pb-4 border-b-2 border-black mb-2 hover:scale-105 "
-                  src="/pic4.png"
-                  alt="myimage"
-                  height={300}
-                  width={500}
-                />
-              </a>
-
-              <div className="grid grid-cols-2">
-                <div className="font-tt-commons-pro font-bold text-[#544541] text-[14px]">
-                  Project
-                </div>
-                <div className="font-tt-commons-pro text-[#544541] text-[14px]">
-                  Management app for airport in Japan
-                </div>
-                <div className="font-tt-commons-pro font-bold text-[#544541] text-[14px]">
-                  Year
-                </div>
-                <div className="font-tt-commons-pro text-[#544541] text-[14px]">
-                  2024
-                </div>
-                <div className="font-tt-commons-pro font-bold text-[#544541] text-[14px]">
-                  Type
-                </div>
-                <div className="font-tt-commons-pro text-[#544541] text-[14px]">
-                  Web design for mobile app airport in Japan <br />
-                 
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="flex items-center flex-col mt-10">
-            <div>
-              <a
-                href="https://www.figma.com/proto/dqXTuN0fxFodAwFQkaQQLZ/smoothies?type=design&node-id=3-189&t=lXzDz6o7bKMhWG8O-1&scaling=scale-down&page-id=0%3A1&mode=design"
-                target="_blank"
-              >
-                <img
-                  className="pb-4 border-b-2 border-black mb-2 hover:scale-105"
-                  src="/pic3.png"
-                  alt="myimage"
-                  height={300}
-                  width={500}
+                  src={item.img}
+                  alt={item.project_title}
+                  style={{
+                    width: "100%",
+                    height: "350px",
+                    objectFit: "cover",
+                    borderBottom: "6px solid black",
+                  }}
                 />
               </a>
 
               <div className="grid grid-cols-2 ">
-                <div className="font-tt-commons-pro font-bold text-[#544541] text-[14px]">
-                  Project
+                <div className="font-tt-commons-pro font-bold text-[#544541]">
+                  {item.title}{" "}
                 </div>
-                <div className="font-tt-commons-pro text-[#544541] text-[14px]">
-                  Smoothies web design 
+                <div className="font-tt-commons-pro ">
+                  {" "}
+                  {item.project_title}
                 </div>
-                <div className="font-tt-commons-pro font-bold text-[#544541] text-[14px]">
-                  Year
+                <div className="font-tt-commons-pro font-bold text-[#544541]">
+                  {item.year_title}{" "}
                 </div>
-                <div className="font-tt-commons-pro text-[#544541] text-[14px]">
-                  2024
+                <div className="font-tt-commons-pro">{item.type_title} </div>
+                <div className="font-tt-commons-pro font-bold text-[#544541]">
+                  {item.year}
                 </div>
-                <div className="font-tt-commons-pro font-bold text-[#544541] text-[14px]">
-                  Type
-                </div>
-                <div className="font-tt-commons-pro text-[#544541] text-[14px]">
-                  Web design for selling smoothies <br />
-                  <a
-                    href="https://www.figma.com/proto/RtqZg8YmHdXJrNs6naLowW/management-app-for-airport-in-japan?type=design&node-id=2-2&t=eyiUN3hxaaCD7EuP-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=2%3A2&mode=design"
-                    target="_blank"
-                    className="hover:underline  hover:text-[#58a2f5]"
-                  ></a>{" "}
-                  <br />
-                </div>
+                <div className="font-tt-commons-pro">{item.type}</div>
               </div>
             </div>
-          </div>
-
-          <div className="flex items-center flex-col mt-10">
-            <div>
-              <a
-                href="https://www.figma.com/proto/uNQOJ2RWc17GwoI0qzc3b9/veteransponsored?type=design&t=u8jDaxvxnypO5onW-1&scaling=scale-down&page-id=0%3A1&node-id=1-2&starting-point-node-id=1%3A2&mode=design"
-                target="_blank"
-              >
-                <img
-                  className="pb-4 border-b-2 border-black mb-2 hover:scale-105"
-                  src="/pic2.png"
-                  alt="myimage"
-                  height={300}
-                  width={500}
-                />
-              </a>
-
-              <div className="grid grid-cols-2 ">
-                <div className="font-tt-commons-pro font-bold text-[#544541] text-[14px]">
-                  Project
-                </div>
-                <div className="font-tt-commons-pro text-[#544541] text-[14px]">
-                  Veteran web design volunteer 
-                </div>
-                <div className="font-tt-commons-pro font-bold text-[#544541] text-[14px]">
-                  Year
-                </div>
-                <div className="font-tt-commons-pro text-[#544541] text-[14px]">
-                  2024
-                </div>
-                <div className="font-tt-commons-pro font-bold text-[#544541] text-[14px]">
-                  Type
-                </div>
-                <div className="font-tt-commons-pro text-[#544541] text-[14px]">
-                  Web design for sponsoring the verterans <br />
-               
-                  <br />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> */}
+          ))}
+        </div>
       </div>
     </>
   );
